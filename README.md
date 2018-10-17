@@ -1,5 +1,13 @@
 Usage:
 
-yarn install or npm install
+yarn install
 
-npm run start <Target tURL> <proxy_port>
+yarn start -- <Target URL> <proxy_port>
+
+example
+
+yarn start -- http://localhost:4200 4201
+
+
+
+Start your browser and go to https://localhost:4201
